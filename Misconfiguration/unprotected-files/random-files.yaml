@@ -15,7 +15,7 @@ requests:
     path:
       - "{{BaseURL}}/{{locations}}"
     payloads:
-       locations: https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/Randomfiles.fuzz.txt
+       locations: https://raw.githubusercontent.com/danielmiessler/SecLists/master/Passwords/Keyboard-Combinations.txt
 
     matchers-condition: and
     matchers:
